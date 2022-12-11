@@ -1,0 +1,7 @@
+■手順メモ
+1.pkg_addでghc, cabal-install, xmonad, xmobarをインストール
+2.cabal updateを実行
+3.cabal install xmonad-contribを実行
+4./usr/local/share/examples/xmonad-0.17.0から、build, xmonad-config.cabal, xmonad.hs を~/.xmonadにコピー
+5.xmonad --recompileを実行
+6./usr/local/share/example/xmobarからxmobarrcを~/.xmonadにコピー
